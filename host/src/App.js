@@ -5,7 +5,7 @@ const SubBAppLazy = lazy(() => import('./SubBApp'));
 
 const App = () => (
   <Suspense fallback={<div>Loading...</div>}>
-    <h1>This is a host application</h1>
+    <h1>I am the host React Application</h1>
     <hr />
     <SubAAppLazy />
     <hr />

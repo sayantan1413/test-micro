@@ -1,3 +1,3 @@
 import React from 'react';
 
-export default () => <div>Sending hate from Sub B</div>;
+export default () => <div>I am coming from React App 2</div>;
